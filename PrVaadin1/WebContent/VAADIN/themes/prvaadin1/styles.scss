@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "prvaadin1.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in prvaadin1.scss */
+.prvaadin1 {
+  @include addons;
+  @include prvaadin1;
+}
